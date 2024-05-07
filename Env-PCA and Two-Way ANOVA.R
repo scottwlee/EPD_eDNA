@@ -5,17 +5,17 @@ library(vegan)
 
 ### Read all data from EPD website
 setwd("C:/Users/")
-e1 = read.csv("marine_water_quality _deep bay.csv",check.names = F)
+e1 = read.csv("marine_water_quality_DM.csv",check.names = F)
 e1 %>% head
-e2 = read.csv("marine_water_quality Mirs.csv",check.names = F)
+e2 = read.csv("marine_water_quality_MM.csv",check.names = F)
 e2 %>% head  
-e3 = read.csv("marine_water_quality North Western.csv",check.names = F)
-e4 = read.csv("marine_water_quality Port S.csv",check.names = F)
-e5 = read.csv("marine_water_quality Sothern.csv",check.names = F)
-e6 = read.csv("marine_water_quality Tolo Harbour ).csv",check.names = F)
-e7 = read.csv("marine_water_quality vm.csv",check.names = F)
-e8 = read.csv("marine_water_quality Western Buffer.csv",check.names = F)
-e9 = read.csv("marine_water_quality_eastern buf.csv",check.names = F)
+e3 = read.csv("marine_water_quality_NM.csv",check.names = F)
+e4 = read.csv("marine_water_quality_PM.csv",check.names = F)
+e5 = read.csv("marine_water_quality_SM.csv",check.names = F)
+e6 = read.csv("marine_water_quality_TM.csv",check.names = F)
+e7 = read.csv("marine_water_quality_VM.csv",check.names = F)
+e8 = read.csv("marine_water_quality_WM.csv",check.names = F)
+e9 = read.csv("marine_water_quality_EM.csv",check.names = F)
 env = rbind(e1,e2,e3,e4,e5,e6,e7,e8,e9)
 
 ### Handling of "N/A", ">0.5" and "<0.01" values
