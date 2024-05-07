@@ -111,5 +111,4 @@ z_c_bulk$nodes_id<-rownames(z_c_bulk)
 nodes_bulk$nodes_id<-rownames(nodes_bulk)
 z_c_bulk<-merge(z_c_bulk,nodes_bulk,by='nodes_id')
 z_c_bulk
-
 }
