@@ -351,9 +351,6 @@ for (trait in traitNames){
     }
   }
 }
-
-
-
 names(datExpr0)
 probes = names(datExpr0)
 
